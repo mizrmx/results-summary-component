@@ -1,34 +1,44 @@
-body {
+body 
+{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     font-family: sans-serif;
-  }
-  .container {
+}
+
+.container 
+{
     display: flex;
     width: 600px;
     justify-content: center;
     border-radius: 20px;
     box-shadow: 1px 0px 20px 2px rgb(0, 0, 0, 0.4);
-  }
+}
   
-  .left {
+.left 
+{
     color: #fff;
     padding: 20px;
     width: 40%;
     text-align: center;
     border-radius: 20px;
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-  }
-  .right {
+}
+
+.right 
+{
     width: 50%;
     padding: 20px;
-  }
-  .left h4 {
+}
+
+.left h4 
+{
     text-align: center;
-  }
-  .score-left {
+}
+
+.score-left 
+{
     padding: 50px;
     width: 74px;
     height: 74px;
@@ -39,18 +49,26 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-  }
-  .big-score {
+}
+
+.big-score 
+{
     color: #fff;
     font-weight: bold;
     font-size: 60px;
-  }
-  .left h3 {
-  }
-  .score-con {
+}
+
+/*.left h3 
+{
+}*/
+
+.score-con 
+{
     display: flex;
-  }
-  .score {
+}
+
+.score 
+{
     display: flex;
     justify-content: space-between;
     background-color: hsla(0, 100%, 67%, 0.1);
@@ -58,31 +76,44 @@ body {
     margin-bottom: 15px;
     padding: 15px;
     border-radius: 10px;
-  }
-  .grey {
+}
+
+.grey 
+{
     color: rgba(87, 87, 87, 0.992);
-  }
-  .score-con img {
+}
+
+.score-con img 
+{
     margin-right: 5px;
-  }
-  .black-text {
+}
+
+.black-text 
+{
     color: #222;
     font-weight: bold;
-  }
-  .score-memory {
+}
+
+.score-memory 
+{
     color: hsl(39, 100%, 56%);
     background: hsla(39, 100%, 56%, 0.1);
-  }
-  .score-verbal {
+}
+
+.score-verbal 
+{
     color: hsl(166, 100%, 37%);
     background: hsl(166, 100%, 37%, 0.1);
-  }
-  .score-visual {
+}
+
+.score-visual 
+{
     color: hsl(234, 85%, 45%);
     background: hsl(234, 85%, 45%, 0.1);
-  }
+}
   
-  button {
+button 
+{
     margin-top: 30px;
     padding: 15px 30px;
     border: none;
@@ -91,25 +122,34 @@ body {
     background-color: hsl(224, 30%, 27%);
     width: 100%;
     border-radius: 20px;
-  }
-  @media (max-width: 760px) {
-    .left {
+}
+
+@media (max-width: 760px) 
+{
+    .left 
+    {
       width: 100%;
       padding: 0px;
       border-radius: 0px;
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
     }
-    .right {
+
+    .right 
+    {
       padding: 0;
       width: 80%;
       margin: 0 auto;
     }
-    .left-text {
+
+    .left-text 
+    {
       padding: 20px;
       text-align: center;
     }
-    .container {
+
+    .container 
+    {
       width: 100%;
       flex-direction: column;
       border-radius: 0px;
